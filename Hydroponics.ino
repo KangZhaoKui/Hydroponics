@@ -1,7 +1,7 @@
 硬件：ATmega88PA-AU, internal 8MHz;
 //5.10增加电量阶段报警功能，从3.3V开始，随着电量的降低，报警时间越长，但水泵还在工作，只是到3V时，只报警，水泵不工作。
 
-#include <LowPower.h>
+#include <LowPower.h> //库
 
 #define PumpPin      5
 #define VoltTestPin  A1
